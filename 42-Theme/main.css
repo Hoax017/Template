@@ -1,0 +1,44 @@
+#canvas {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    pointer-events: none
+}
+
+#canvas.small {
+    position: absolute
+}
+
+#canvas polygon {
+    display: none
+}
+
+#canvas polygon.visible {
+    display: block
+}
+
+#canvas rect {
+    fill: #323232
+}
+
+#canvas:before {
+    content: '';
+    position: absolute;
+    box-shadow: inset 0 0 0 30px #fff;
+    height: 100vh;
+    width: 100vw;
+    z-index: 80;
+    pointer-events: none
+}
+
+header h1 {
+    font-size: 70px;
+    padding: 100px 50px 0px 50px;
+}
+.headerTitle{
+    position: relative;
+    z-index: 2;
+    font-family: sans-serif;
+    text-align: center;
+    color: #FFF;
+}

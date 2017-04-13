@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="main.css">
+	<script src="app.js" type="text/javascript"></script>
+</head>
+
+
+
+<body data-color="sublime-text" style="height: 2000px;">
+
+	<div class="page-content">
+		<div class="wrapper">
+			<header>
+				<h1 id="title" class="headerTitle">Ecole 42</h1>
+				<h4 class="headerTitle">(scroll)</h4>
+			</header>
+		</div>
+	</div>
+	<svg id="canvas">
+		<defs>
+			<clipPath id="canvas-mask"></clipPath>
+		</defs>
+		<rect id="canvas-background" clip-path="url(#canvas-mask)"></rect>
+		<g id="canvas-polygons"></g>
+	</svg>
+</body>
+
+</html>
